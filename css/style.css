@@ -1,0 +1,200 @@
+/* ====================== ШРИФТИ =============================== */
+/*----------------- Підключення шрифтів ----------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family:"Lato", serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.header{
+	margin-bottom: 40px;
+}
+h1, h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+	padding: 45px 0px;
+}
+img{
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+.section-1{
+	margin-bottom: 24px;
+}
+.text.quote{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+}
+.section-2,
+.section-3{
+	margin-bottom: 48px;
+}
+.section-2 > p{
+	margin-bottom: 24px;
+}
+.section-3 p{
+	padding-left: 58px;
+}
+.text-4{
+	margin-bottom: 24px;
+}
+ul.list{
+	margin-bottom: 24px;
+}
+li.item{
+	margin-bottom: 4px;
+	padding-left: 32px;
+}
+.section-4{
+	margin-bottom: 60px;
+}
+
+.extreme-sports {
+	font-size: 22px;
+}
+#top{
+	color: rgb(8, 180, 180);
+	text-shadow: 2px 2px 2px #2534b8;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+div.sports {
+	max-width: 500px;
+	margin: 0 auto;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(4, 11, 78);
+	outline: 5px dashed rgb(219, 223, 12);
+	margin-bottom: 10px;
+}
+.text.sports{
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+	padding: 0px 8px;
+}
+.sports > p{
+	margin-top: 10px;
+}
+h3.title{
+	text-decoration: underline;
+	color: rgb(7, 58, 7);
+	text-indent: 20px;
+	margin-bottom: 10px;
+}
+.list *{
+	margin-bottom: 7px;
+}
+.button{
+	display: inline-block;
+	width: 300px;
+	background-color: #7A956B;
+	border-radius: 15px;
+	padding: 7px;
+	color: #fff;
+	text-align: center;
+}
+h3{
+	font-size: 30px;
+	font-weight: 900;
+	color: darkslateblue;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: overline;
+	margin-bottom: 10px;
+}
+.block-1,.block-2,.block-3,.block-4,.block-5,.block-6,.block-7,.block-8,.block-9,.block-10{
+	margin-bottom: 25px;
+}
+.block-1 {
+	max-width: 500px;
+	max-height: 450px;
+	overflow: auto;
+	margin-left: auto;
+	color: rgb(20, 161, 161);
+}
+.block-2 {
+	color: rgb(209, 95, 14);
+	text-transform: capitalize;
+	border-top: 5px double rgb(54, 68, 71);
+	border-left: 5px double rgb(54, 68, 71);
+	border-right: 5px double rgb(158, 22, 22);
+	border-bottom: 5px double rgb(158, 22, 22);
+}
+.block-3 {
+	max-width: 500px;
+	color: rgb(21, 145, 103);
+	text-align: justify;
+	border: 7px dotted rgb(28, 48, 233);
+	border-radius: 70px 0px 70px;
+}
+.oval{
+	border-radius: 50%;
+}
+.block-4 {
+	max-width: 500px;
+	margin-left: auto;
+	color: rgb(24, 41, 192);
+	border: 7px solid rgb(95, 78, 30);
+	border-radius: 20px;
+	opacity: 0.5;
+}
+.block-5 {
+	color: rgb(95, 119, 83);
+	text-transform: lowercase;
+	outline: 5px dashed #222a47;
+}
+.inline {
+	display: inline-block;
+	max-width: 250px;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.block-6 {
+	max-width: 500px;
+	color: rgb(241, 33, 33);
+	box-shadow: inset 15px 15px 10px 5px rgb(240, 186, 50);
+}
+.block-7 {
+	max-width: 500px;
+	margin-left: auto;
+	box-shadow: 10px 15px 20px 7px rgb(36, 71, 228);
+	color: rgba(11, 18, 77, 0.678);
+}
+.block-8 {
+	max-height: 730px;
+	overflow: hidden;
+	border-right: 8px double rgb(39, 131, 207);
+	border-bottom: 8px double rgb(39, 131, 207);;
+	color: rgb(16, 16, 165);
+}
+.block-9 {
+	outline: 5px dotted rgb(0, 204, 255);
+	color: rgb(158, 22, 22);
+}
+.block-10 {
+	max-width: 500px;
+	margin-left: auto;
+	border: 5px solid rgb(240, 186, 50);
+	box-shadow: inset 10px 15px 20px 7px rgb(77, 182, 142);
+	color: rgb(16, 66, 16);
+}
+.block-10 + p{
+	font-size: 70px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(220, 20, 60);
+	outline: 5px dotted rgb(251, 255, 0);
+}
